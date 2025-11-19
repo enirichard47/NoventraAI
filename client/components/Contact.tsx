@@ -12,7 +12,7 @@ import {
 
 export default function Contact() {
   return (
-    <main className="relative min-h-screen overflow-hidden bg-black text-slate-100">
+    <main className="relative  min-h-[80vh] overflow-hidden bg-black text-slate-100">
       {/* Background gradient */}
       <div className="absolute inset-0 bg-gradient-to-b from-[#050508] via-[#050816] to-black pointer-events-none" />
 

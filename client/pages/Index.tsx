@@ -3,6 +3,9 @@ import Header from "@/components/Header";
 import Hero from "@/components/Hero";
 import ScanResults from "@/components/ScanResults";
 import Documentation from "@/components/Documentation";
+import TokenRoadmap from "@/components/TokenRoadmap";
+import TokenMarketing from "@/components/TokenMarketing";
+import Contact from "@/components/Contact";
 import Footer from "@/components/Footer";
 import LoadingSkeleton from "@/components/LoadingSkeleton";
 import { scanToken } from "@/services/scanService";
@@ -63,6 +66,12 @@ export default function Index() {
       {result && <ScanResults result={result} onRescan={handleRescan} />}
 
       <Documentation />
+
+      <Contact />
+
+      <TokenRoadmap />
+
+      <TokenMarketing />
 
       <Footer />
     </div>

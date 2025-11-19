@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 
 export default function Footer() {
   return (
-    <footer className="bg-slate-900/80 backdrop-blur-md border-t border-cyan-500/20 mt-20 relative overflow-hidden">
+    <footer className="bg-slate-900/80 backdrop-blur-md border-t border-cyan-500/20 relative overflow-hidden">
       {/* Subtle animated gradient */}
       <div className="absolute inset-0 bg-gradient-to-r from-purple-500/10 via-pink-500/10 to-cyan-500/10 animate-shimmer pointer-events-none"></div>
 
