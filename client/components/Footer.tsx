@@ -14,7 +14,7 @@ export default function Footer() {
             <div className="relative w-19 h-16 flex-shrink-0">
               <img
                 src="/theLogo.png"
-                alt="Ciphera"
+                alt="NoventraAI"
                 className="w-full h-full object-contain"
               />
             </div>

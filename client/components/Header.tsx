@@ -29,7 +29,7 @@ export default function Header() {
               <div className="relative w-full h-full rounded-2xl border border-white/10 bg-slate-950/60 backdrop-blur-xl shadow-[0_0_25px_rgba(0,0,0,0.9)] overflow-hidden">
                 <img
                   src="/theLogo.png"
-                  alt="Ciphera"
+                  alt="NoventraAI"
                   className="w-full h-full object-cover"
                 />
               </div>

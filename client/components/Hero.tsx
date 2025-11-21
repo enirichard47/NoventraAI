@@ -96,7 +96,7 @@ export default function Hero({ onSearch, isLoading = false }: HeroProps) {
               <Search className="absolute left-4 top-1/2 -translate-y-1/2 text-slate-400 w-5 h-5" />
               <input
                 type="text"
-                placeholder="Paste a token contract address (ETH, BSC, Polygon...)"
+                placeholder="Paste a token contract address (SOLANA, ETH, BSC, Polygon...)"
                 value={address}
                 onChange={(e) => setAddress(e.target.value)}
                 disabled={isLoading}
@@ -220,6 +220,28 @@ export default function Hero({ onSearch, isLoading = false }: HeroProps) {
             <span>Scroll to explore token insights</span>
           </div>
         </div>
+        <div className="inline-flex items-center gap-3 px-4 py-2 mt-8 rounded-full border border-white/10 bg-black/40 backdrop-blur-2xl text-xs sm:text-sm text-slate-200 shadow-[0_0_30px_rgba(0,0,0,0.7)] animate-fade-down cursor-pointer select-all">
+  <span className="inline-flex h-2 w-2 rounded-full bg-emerald-400 animate-ping-once" />
+  
+  <span className="bg-gradient-to-r from-[#00ffe7] via-[#ff3c9e] to-[#ffb500] bg-clip-text text-transparent font-semibold">
+    Contract Address
+  </span>
+
+  <span className="text-slate-400">•</span>
+
+  <span className="text-slate-300/80 font-mono">
+    0xYOUR_CONTRACT_ADDRESS_HERE
+  </span>
+
+  <button
+    onClick={() => {
+      navigator.clipboard.writeText("0xYOUR_CONTRACT_ADDRESS_HERE");
+    }}
+    className="ml-1 px-2 py-1 rounded-md bg-white/5 hover:bg-white/10 transition text-slate-300 text-[10px] sm:text-xs"
+  >
+    Copy
+  </button>
+</div>
       </div>
 
       <style>

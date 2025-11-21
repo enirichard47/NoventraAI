@@ -92,7 +92,7 @@ export default function Documentation() {
             level="Low"
             score="0-30"
             color="green"
-            description="Token has strong liquidity (>$250K), healthy trading volume, and solid market indicators."
+            description="Token shows strong early metrics such as stable buys and no contract red flags."
             index={0}
           />
           <RiskLevelCard

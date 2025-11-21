@@ -55,7 +55,7 @@ export default function Contact() {
             </span>
           </h1>
           <p className="text-sm sm:text-base text-slate-300/90 max-w-2xl mx-auto leading-relaxed">
-            Reach out to the Ciphera team for support, integrations, security reports,
+            Reach out to the NoventraAI team for support, integrations, security reports,
             or anything else related to our multi‑chain token scanner and AI risk engine.
           </p>
         </header>
@@ -211,7 +211,7 @@ function ContactForm() {
       setSubmitting(false);
       setForm({ name: "", email: "", topic: "", message: "" });
       setError(null);
-      setSuccess("Your message has been securely captured and forwarded to the Ciphera team.");
+      setSuccess("Your message has been securely captured and forwarded to the NoventraAI team.");
     }, 800);
   };
 

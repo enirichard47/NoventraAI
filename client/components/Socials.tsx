@@ -50,7 +50,7 @@ export default function Socials() {
 
         {/* GitHub */}
         <a
-          href="https://github.com/enirichard47/Ciphera.git"
+          href="https://github.com/enirichard47/NoventraAI.git"
           target="_blank"
           className="group relative border border-pink-500/30 rounded-2xl p-8 
           backdrop-blur-xl bg-white/5 hover:bg-white/10 transition-all duration-300 

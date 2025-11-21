@@ -45,11 +45,11 @@ Continuous, reliable data helps stabilize emerging tokens and markets.`
       color: "purple",
       content: `The AI Guardian monitors on-chain telemetry and assigns risk scores:
 
-- Rug-Pull & Honeypot Detection: Analyzes smart contracts for exploit patterns.
-- Predictive Analytics: Evaluates volatility and potential manipulation.
-- Human Oversight: DAO/multisig ratifies recommendations for transparency.
+- AI-assisted pattern recognition: Scans smart contracts for rug-pull, honeypot, and other exploit patterns
+- Volatility indicators: Evaluates price swings and potential market manipulation
+- Risk signal analysis with governance: DAO/multisig oversight ratifies recommendations, ensuring transparency and trustless participation
 
-Combining AI with governance reduces risk while maintaining trustless participation.`
+Combining AI with decentralized governance reduces risk while keeping the system trustless`
     },
     {
       title: "5. Utility: Multi-Chain Token Scanner",
@@ -68,8 +68,7 @@ NoventraAI converts token evaluation into verifiable, real-time insight.`
       color: "cyan",
       content: `- API Access: Stream real-time data into applications.
 - Custom Dashboards: Track favorite tokens or portfolios.
-- dApp Integration: Provides confidence for developers.
-- Liquidity Support: Bonding-curve mechanisms stabilize new tokens.`
+- dApp Integration: Provides confidence for developers.`
     },
     {
       title: "7. Tokenomics Overview",
@@ -94,9 +93,8 @@ Taxes:
 
 Launch Type:
  • Pure fair-launch through bonding curve mechanics
- • Fully community-driven startity Programs: 15%
 
-Tokens enable staking for analytics, governance voting, and contributions to multi-chain intelligence.`
+`
     },
     {
       title: "8. Governance",
